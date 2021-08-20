@@ -3,6 +3,7 @@
 本软件支持SSH2和TELNET方式，支持多厂家，可根据工作需要任意定制指令，最后实现的效果是根据你需要的指令，将表格中所有的交换机信息采集到main所在的文件夹下。程序已打包成.exe文件，以免部分内网电脑没有python环境。如果需要定时启动的话目前采用的方案是用win的定时任务来实现。
 
 使用说明：
+
 “Network Equipment Info.xlsx”文件作为我们的数据库，运行程序之前将Network Equipment Info.xlsx和main.exe放在同一个文件夹下
 
 其中“Config”这张sheet用来设定你用来存放需备份的 设备厂商sheet名称 以及 厂商指令sheet名称，可以多行
