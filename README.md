@@ -4,10 +4,17 @@
 
 使用说明：
 “Network Equipment Info.xlsx”文件作为我们的数据库，运行程序之前将Network Equipment Info.xlsx和main.exe放在同一个文件夹下
+
 其中“Config”这张sheet用来设定你用来存放需备份的 设备厂商sheet名称 以及 厂商指令sheet名称，可以多行
+
 设备厂商sheet里头包含该厂家的设备名称（任意）、IP地址、用户名、密码、登录采用的协议（SSH2或者TELNET）
+
 厂商指令sheet里头包含了厂家所用的指令，可以根据工作需要任意调整
+
 表格中标橙色的部分不要动，以免程序运行报错
+
+
+
 
 这是本人第一次编程，如果有相关bug可以提交issues，目前没有新增功能的打算。
 
